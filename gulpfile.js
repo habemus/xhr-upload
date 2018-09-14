@@ -28,3 +28,5 @@ gulp.task('test:browser', ['javascript'], function() {
     startPath: 'tests.html',
   });
 });
+
+gulp.task('distribute', ['javascript'])
